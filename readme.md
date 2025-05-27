@@ -65,4 +65,8 @@ CatNap - это ваш личный фиолетовый кот-помощник
 - Идея: VladGamePlay
 - Основная разработка (с помощью Gemini): VladGamePlay
 
+![Демонстрация CatNap](assets/images/catnap_demo.png) 
+
+Милый и полезный настольный ассистент...
+
 ---
