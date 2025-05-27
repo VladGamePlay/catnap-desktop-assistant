@@ -21,7 +21,7 @@ APP_YEAR = "2025"
 PREFERENCES_FILE_NAME = "user_preferences.json"
 
 # --- Настройки Gemini API ---
-GEMINI_API_KEY = "" # Замените на ваш ключ!
+GEMINI_API_KEY = "ВАШ_API_КЛЮЧ_СЮДА" # Замените на ваш ключ!
 class Mood:
     SLEEPY = "SLEEPY"; PLAYFUL = "PLAYFUL"; THOUGHTFUL = "THOUGHTFUL"; NEUTRAL = "NEUTRAL"
 ALL_MOODS_LIST = [Mood.SLEEPY, Mood.PLAYFUL, Mood.THOUGHTFUL, Mood.NEUTRAL]
