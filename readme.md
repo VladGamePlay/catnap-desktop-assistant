@@ -1,4 +1,4 @@
-# CatNap Desktop Assistant (Points Version)
+# CatNap Desktop Assistant
 
 Милый и полезный настольный ассистент в виде кота CatNap!
 
