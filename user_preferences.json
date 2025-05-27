@@ -1,12 +1,5 @@
 {
-    "user_name": "Влад",
-    "hobbies": [
-        "",
-        "",
-        "",
-        ""
-    ],
-    "disliked_topics": [
-        ""
-    ]
+    "user_name": "",
+    "hobbies": [],
+    "disliked_topics": []
 }
