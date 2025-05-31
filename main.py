@@ -4,7 +4,6 @@ import google.generativeai as genai
 import tkinter
 from tkinter import messagebox
 import mss
-import io
 import random
 import time
 import subprocess
@@ -18,13 +17,12 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-print(f"Ключ из .env: {os.getenv('GEMINI_API_KEY')}") # Для отладки
 
 # --- Настройки ---
 SPRITE_IMAGE_PATH = "assets/catnap_idle2.gif" 
 WINDOW_TARGET_WIDTH = 200 
 WINDOW_TARGET_HEIGHT = 250 
-APP_VERSION = "1.6.2" # Новая версия
+APP_VERSION = "1.6.3" # Новая версия
 APP_YEAR = "2025"
 PREFERENCES_FILE_NAME = "user_preferences.json"
 
