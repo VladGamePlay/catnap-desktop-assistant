@@ -867,18 +867,6 @@ class CatNapApp(ctk.CTk):
             chat_win.add_message_to_chat("CatNap", message)
         else:
             print(f"CatNap petted ({zone_name or 'general'}): {message}")
-    def _react_to_petting(self):
-        message = random.choice(PETTING_MESSAGES)
-        
-        chat_win = self.get_chat_window()
-        if chat_win.winfo_viewable(): # Реагируем, только если чат видим
-            # Если чат был пуст, сначала добавим стандартное приветствие
-            if chat_win.chat_history_textbox.get("1.0", "end-1c").strip() == "":
-                chat_win.set_initial_greeting()
-            chat_win.add_message_to_chat("CatNap", message)
-        else:
-            # Если чат скрыт, можно просто вывести в консоль или ничего не делать
-            print(f"CatNap was petted: {message}")
     def show_context_menu(self, event): # Без изменений
         try: self.context_menu.tk_popup(event.x_root, event.y_root)
         finally: self.context_menu.grab_release()
