@@ -24,7 +24,7 @@ print(f"Ключ из .env: {os.getenv('GEMINI_API_KEY')}") # Для отлад�
 SPRITE_IMAGE_PATH = "assets/catnap_idle2.gif" 
 WINDOW_TARGET_WIDTH = 200 
 WINDOW_TARGET_HEIGHT = 250 
-APP_VERSION = "1.6.1" # Новая версия
+APP_VERSION = "1.6.2" # Новая версия
 APP_YEAR = "2025"
 PREFERENCES_FILE_NAME = "user_preferences.json"
 
@@ -665,7 +665,7 @@ class CatNapApp(ctk.CTk):
     def get_chat_window(self): # Без изменений
         if not self.chat_window_instance or not self.chat_window_instance.winfo_exists(): self.chat_window_instance = ChatWindow(self); self.chat_window_instance.withdraw()
         return self.chat_window_instance
-    def toggle_chat_window_from_menu(self): self.toggle_chat_window(center_on_sprite=False) # Без изменений
+    def toggle_chat_window_from_menu(self): self.toggle_chat_window(center_on_sprite=True) # Без изменений
     def toggle_chat_window(self, event=None, center_on_sprite=True):
         chat_win = self.get_chat_window()
         if chat_win.winfo_viewable(): # Если окно видимо
