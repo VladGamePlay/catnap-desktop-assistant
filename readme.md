@@ -1,4 +1,4 @@
-# CatNap Desktop Assistant 😺💤 V1.6.2
+# CatNap Desktop Assistant 😺💤
 
 Ваш милый, немного сонный, но очень продвинутый настольный ассистент в виде анимированного кота CatNap!
 
